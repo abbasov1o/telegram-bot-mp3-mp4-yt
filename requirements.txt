@@ -1,2 +1,6 @@
 python-telegram-bot
 requests
+TgCrypto
+Pyrogram
+youtube-dl
+youtube_search
