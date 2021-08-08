@@ -2,9 +2,12 @@
 
 import requests, logging
 from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
-import token
+import os
 
-TOKEN = token.Token().TOKEN
+bot = Client(
+    'ASUNA',
+    bot_token = Config.BOT_TOKEN
+)
 
 count = 0
 
