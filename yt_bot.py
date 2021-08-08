@@ -2,9 +2,9 @@
 
 import requests, logging
 from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
-import token_pvt
+import token
 
-TOKEN = token_pvt.Token().TOKEN
+TOKEN = token.Token().TOKEN
 
 count = 0
 
