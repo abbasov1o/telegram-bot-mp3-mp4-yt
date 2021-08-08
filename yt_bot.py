@@ -1,7 +1,9 @@
 #!/usr/bin/python
 
 import requests, logging
+from pyrogram import Client, filters
 from telegram.ext import Updater, MessageHandler, Filters, CommandHandler
+from pyrogram import filters, Client
 import os
 
 bot = Client(
